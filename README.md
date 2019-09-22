@@ -65,7 +65,7 @@ Verilog is a hardware description language which is used for describing various 
 
     
 
-So , If you want to learn about Verilog , go and check out the links below (press ctrl+click on the link for opening the link)  -->  
+So , If you want to learn about Verilog , go and check out the links below -->  
 
 [Verilog Tutorial for beginners](http://www.referencedesigner.com/tutorials/verilog/verilog_01.php)
 
