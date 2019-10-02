@@ -1,4 +1,4 @@
-In this repository , I have uploaded Verilog codes for various combinational and sequential circuits along with their testbenches . Now for those people who don't know about Verilog , here is a little description of the language and it's constructs -->
+In this repository , I have uploaded Verilog codes for various combinational and sequential circuits along with their testbenches & I am using EDA Playground for editing the codes.EDA Playground is a online platform which allows users to edit,simulate(viewing waveforms) & synthesize their HDL code.So you can use EDA Playground to edit your Verilog code if you want or there are other softwares available in the market which you can use.Now, for those people who don't know about Verilog , here is a little description of the language and it's constructs -->
 
 ## What is Verilog ?
 
