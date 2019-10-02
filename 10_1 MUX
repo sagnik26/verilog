@@ -1,0 +1,46 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 06/07/2019 08:30:55 AM
+// Design Name: 
+// Module Name: mux10_1
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// Author : Rishi Jain
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module mux10_1(i,s,y);
+     input [9:0] i;
+    input [3:0] s;
+    output y ;
+    wire y,w1,w2,w3,w4,w5,w6,w7,w8;
+    mux21 t1(i[0],i[1],s[0],w1);
+    
+     mux21 t2(i[2],i[3],s[0],w2);
+     
+      mux21 t3(i[4],i[5],s[0],w3);
+      
+       mux21 t4(i[6],i[7],s[0],w4);
+       
+        mux21 t5(i[8],i[9],s[0],w5);
+        
+         mux21 t6(w1,w2,s[1],w6);
+         
+          mux21 t7(w3,w4,s[1],w7);
+          
+           mux21 t8(w6,w7,s[2],w8);
+       
+            mux21 t9(w8,w5,s[3],y);
+endmodule
